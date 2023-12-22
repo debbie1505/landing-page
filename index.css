@@ -58,16 +58,16 @@ li {
 
 .hero {
   display: flex;
-  padding: 10px 10%;
+  padding: 10% 10%;
   background-color: var(--dark-navy);
-  padding: 10% 10px;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .text {
   padding: 5px;
-  max-width: 300px;
+  max-width: 500px;
   margin-right: 30px;
 }
 
@@ -110,35 +110,49 @@ li {
   align-items: center;
   padding: 10px 10%;
   padding-bottom: 40px;
+  margin: 30px;
 }
 
 .boxes {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+  align-items: center;
 }
 
 .box {
-  width: 100%;
-  height: 40px;
+  width: 80%;
+  height: 100px;
   border: 2px solid var(--bluish);
   border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .box-sections p {
-  color: rgb(36, 35, 35);
+  color: gray;
+  text-align: center;
+  font-size: 14px;
 }
 
 .box-sections {
   display: flex;
   flex-direction: column;
-  width: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
 }
 
 /* quotes section*/
 
+.quote-container {
+  background-color: var(--grayish);
+}
 .quote {
   background-color: #e5e7eb;
   padding: 10% 10%;
+  margin: 10px 5%;
 }
 .quote-text {
   color: #1f2937;
@@ -155,16 +169,17 @@ li {
 
 .call-to-action-container {
   background-color: white;
+  padding: 5% 10%;
 }
 
 .call-to-action {
   background-color: var(--bluish);
-  margin: 40px 10%;
-  padding: 10px 20%;
+  padding: 40px 10%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .call-to-action-button {
@@ -187,7 +202,7 @@ li {
 
 footer {
   background-color: var(--dark-navy);
-  padding: 20px 10%;
+  padding: 40px 10%;
   display: flex;
   justify-content: center;
   color: var(--grayish);
