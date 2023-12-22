@@ -94,6 +94,7 @@ li {
 .hero-img {
   background-color: gray;
   padding: 50px;
+  color: var(--whitish);
 }
 
 /*Information center*/
